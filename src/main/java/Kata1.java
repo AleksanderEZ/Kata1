@@ -2,9 +2,10 @@
 import java.time.LocalDate;
 import java.time.Month;
 
-public class Kata1 {
+public class Kata1{
     public static void main(String[] args) {
-        Person person = new Person("Luis Hernandez", LocalDate.of(1934, Month.AUGUST, 12));
-        System.out.println(person.getName() + "=" + person.getYears());
+        Persona juan = new Persona("Jose Juan", LocalDate.of(2000, Month.MARCH, 20));
+        System.out.println(juan.getName());
+        System.out.println(juan.getYears());
 }
 }
